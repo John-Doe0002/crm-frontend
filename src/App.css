@@ -18,7 +18,7 @@ main{
 }
 footer{
     grid-area: footer;
-    background: #01b810d9;
+    background: #059f02;
     padding: 1rem;
     color: white;
 }
