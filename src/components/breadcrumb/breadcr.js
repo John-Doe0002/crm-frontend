@@ -1,6 +1,8 @@
 import React from 'react'
 import { Breadcrumb } from 'react-bootstrap';
 
+import './breadcr.css';
+
 export const breadcr = ({page}) => {
   return (
     <Breadcrumb>
