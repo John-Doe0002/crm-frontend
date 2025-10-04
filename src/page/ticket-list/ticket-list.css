@@ -1,0 +1,11 @@
+.bttn .button0 {
+    background-color: #01b810d9;
+    border: none;
+    border-radius: 9px;
+    height: 45px;
+    color: white;
+}
+
+.bttn .button0 :hover {
+    background: #059f02
+}
