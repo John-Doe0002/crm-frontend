@@ -27,3 +27,18 @@ footer{
     color: #059f02;
     font-weight: bold;
 }
+
+.text-right .buttonR {
+    background: #01b810d9;
+    border: none;
+    border-radius: 9px;
+    height: 45px;
+    width: 80px;
+    color: white;
+    margin-top: 20px;
+    margin-left: 80%;
+}
+
+.text-right .buttonR:hover {
+    background: #059f02;
+}

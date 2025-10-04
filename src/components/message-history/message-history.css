@@ -1,0 +1,23 @@
+.message-history {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.message-history:nth-child(even) {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-right: 20px;
+
+}
+
+.message {
+    padding: 1rem;
+    width: 80%;
+    border: 1px solid #01b810d9;
+    border-radius: 0.25rem;
+    font-weight: lighter;
+}
