@@ -1,8 +1,9 @@
 import React from 'react'
+import { Outlet } from 'react-router-dom'
 import { Header } from './comps/Header'
 import { Footer } from './comps/Footer'
 
-export const Defaultlayout = ({children}) => {
+export const Defaultlayout = () => {
   return (
     <div className='default-layout'>
         <header className='header'>
@@ -10,7 +11,7 @@ export const Defaultlayout = ({children}) => {
         </header>
 
         <main className='main'>
-            {children}
+            <Outlet />
         </main>
 
         <footer className='footer'>

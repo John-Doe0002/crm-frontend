@@ -7,8 +7,10 @@
 }
 
 .bttn .button0 :hover {
-    background: #059f02
-}
+    background: #059f02;
+    border: none;
+    border-radius: 9px;
+};
 
 .bttn1 .button04 {
     background: #01b810d9;

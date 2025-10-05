@@ -4,6 +4,7 @@ import { breadcr as Breadcrumb } from '../../components/breadcrumb/breadcr'
 import { SearchForm } from '../../components/search-form/SearchForm'
 import { TicketTable } from '../../components/ticket-table/ticket.table'
 import tickets from '../../assets/data/dummy-ticks.json'
+import { Link } from 'react-router-dom';
 import './ticket-list.css'
 
 export const TicketList = () => {
@@ -34,17 +35,20 @@ export const TicketList = () => {
             <Col className='mt-3 mb-2' style={{'fontSize': '1.3rem'}}>
               <Breadcrumb page="TicketList"/>
             </Col>
+            <hr />
         </Row>
         &nbsp;
         <Row>
             <Col className='bttn'>
+              <Link to='/new-ticket'>
               <Button className='button0'>Add New Ticket</Button>
+              </Link>
             </Col>
             <Col className='text-right'>
               <SearchForm handleOnChange={handleOnChange} str={str}/>
             </Col>
         </Row>
-        <hr />
+        &nbsp;
         <Row>
             <Col>
               <TicketTable tickets={dispTicket} />

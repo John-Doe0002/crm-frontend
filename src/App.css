@@ -1,6 +1,6 @@
 .default-layout{
     display: grid;
-    grid-template-rows: 65px auto 3rem;
+    grid-template-rows: 90px auto 3rem;
     grid-template-areas: 
     "header"
     "main"
@@ -10,7 +10,10 @@
 header{
     grid-area: header;
     background: #01b810d9;
+    text-align: right;
     color: white;
+    padding: 0.5rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 main{
     grid-area: main;

@@ -31,8 +31,9 @@ export const NewTicket = () => {
         <Row>
             <Col className='mt-3 mb-2' style={{'fontSize': '1.3rem'}}> 
                 <Breadcrumb className="newticket" page="New Ticket"/>
+                
             </Col>
-                    <hr />
+                    
         </Row>
 
         <Row>
